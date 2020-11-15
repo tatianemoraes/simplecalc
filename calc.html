@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<header>
+  <h3 class="divisoria">Calculadora simples</h3>
+  <br>
+</header>
+<body>
+    <div class="calc-container">
+      <div id="containergeral">
+        <div class="numbers">
+          <div class="container1">
+            <button class="btn1 plus" value="sum">+</button>
+            <button class="btn1" value="9">9</button>
+            <button class="btn1" value="5">5</button>
+            <button class="btn1 " value="1">1</button>
+          </div>
+          <div class="container1">  
+            <button class="btn1 minus" value="minus">-</button>
+            <button class="btn1 " value="8">8</button>
+            <button class="btn1 " value="4">4</button>
+            <button class="btn1 " value="0">0</button>
+          </div>   
+          <div class="container1">  
+            <button class="btn1 division" value="division">/</button>
+            <button class="btn1 " value="7">7</button>
+            <button class="btn1 " value="3">3</button>
+            <button class="btn1 clear">C</button>
+          </div> 
+          <div class="container1">
+            <button class="btn1 multiplication" value="multiplication">*</button>
+            <button class="btn1 " value="6">6</button>
+            <button class="btn1 " value="2">2</button>
+            <button class="btn1 equal" value="equal">=</button>
+          </div>
+        </div>
+        <div class="result">
+         <input class="resultado" type="text" placeholder="Resultado"  
+          readonly="true"/>
+        </div>  
+      </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
