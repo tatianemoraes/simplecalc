@@ -1,2 +1,3 @@
 # simplecalc
-a calculator for simple calcs.
+
+- Uma calculadora simples para cálculos básicos.
